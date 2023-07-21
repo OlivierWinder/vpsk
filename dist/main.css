@@ -1191,6 +1191,35 @@ h6 {
   text-align: center;
 }
 
+.succes {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.succes__heading {
+  width: 100%;
+  font-family: "Spectral", serif;
+  text-align: center;
+  line-height: 1.2;
+}
+@media (max-width: 600px) {
+  .succes__heading {
+    font-size: 3.157rem;
+  }
+}
+.succes__subheading {
+  width: 100%;
+  text-align: center;
+}
+.succes__link {
+  color: #55C1BF;
+  width: 100%;
+  text-align: center;
+}
+
 @media (min-width: 1200px) {
   header {
     padding-left: 120px;

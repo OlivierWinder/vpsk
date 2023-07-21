@@ -1,0 +1,33 @@
+@use '../utils/' as u;
+
+
+.succes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    &__heading{
+        width: 100%;
+        font-family: u.$secondary-font;
+        text-align: center;
+        line-height: 1.2;
+
+        @media (max-width: 600px){
+            font-size: u.$h2;
+        }
+    }
+
+    &__subheading{
+        width: 100%;
+        text-align: center;
+    }
+
+    &__link{
+        color: u.$accent-color;
+        width: 100%;
+        text-align: center;
+    }
+}
