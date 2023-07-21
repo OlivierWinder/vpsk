@@ -88,6 +88,11 @@
 
         <div class="contact">
             <form action="https://formsubmit.co/0c1ec9565e44c877297c0c285ce5fffb" class="contact__form" method="post">
+                <!-- honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+                <!-- disable captcha -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- inputs -->
                 <label for="name">Voor- en achternaam !</label>
                 <input type="text" id="name" name="name" class="contact__form__input">
                 <label for="email">E-mailadres</label>
