@@ -1,0 +1,25 @@
+@use '../utils' as u;
+
+    .post__heading{
+        font-family: u.$secondary-font;
+        font-weight: 200;
+        @media (max-width: 949px){
+            font-size: u.$h3;
+            line-height: u.$h3;
+            margin-bottom: 1rem;
+        }
+    }
+    
+    .post__image{
+        margin-top: 2rem;
+        width: 50vw;
+        height: auto;
+        @media (max-width: 949px){
+            width: 80vw;
+        }
+    }
+
+    .post__paragraph{
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }

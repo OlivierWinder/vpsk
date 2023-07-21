@@ -1,0 +1,84 @@
+
+// header
+@media (min-width: 1200px ){
+    header{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1199px){
+    header{
+        padding-left: 100px;
+        padding-right: 100px
+    }
+}
+@media (min-width: 500px) and (max-width: 999px){
+    header{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 499px){
+    header {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+// main
+
+@media (min-width: 1200px ){
+    .padding{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1199px){
+    .padding{
+        padding-left: 100px;
+        padding-right: 100px
+    }
+}
+@media (min-width: 500px) and (max-width: 999px){
+    .padding{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media (max-width: 499px){
+    .padding{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+// footer
+
+@media (min-width: 1200px) {
+    footer {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+    footer {
+        padding-left: 100px;
+        padding-right: 100px
+    }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    footer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 499px){
+    footer {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}

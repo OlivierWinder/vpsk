@@ -1,0 +1,72 @@
+@use '../utils' as u;
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 101;
+    background-color: u.$white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &--active{
+        background-color: u.$white !important;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    @media (min-width: 950px){
+        .header__modal-button{
+            display: none;
+        }
+    }
+    @media (max-width: 949px) {
+        .header__nav{
+            display: none;
+        }
+    }
+    
+    &--home{
+        background-color: rgba(255, 255, 255, 0);
+        color: u.$black;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    &__logo{
+        color: white;
+        font-weight: 600;
+    } 
+
+    &__nav{
+        // background-color: blue;
+        
+        &__list{
+            text-transform: capitalize;
+            display: flex;
+            gap: 4rem;
+            font-size: u.$h6;
+            font-weight: 500;
+            color: u.$white;
+
+        }
+    }
+
+    &__modal-button{
+        color: white;
+    }
+    &__modal-button--black{
+        color: black;
+    }
+}
+
+.header__modal-button__close{
+    color: black;
+}
+
+.nav--active{
+    color: black;
+}
+.header__logo--active{
+    color: black;
+}

@@ -1,0 +1,25 @@
+@use '../utils' as u;
+
+.button{
+    font-weight: 600 !important;
+    padding: 0 1rem !important;
+    height: 50px !important;
+
+    &--primary{
+
+        background-color: u.$accent-color !important;
+    
+        &:hover{
+            background-color: #449c9b !important;
+        }
+    }
+    
+    &--secondary{
+        border-color: u.$accent-color;
+
+        &:hover{
+            border-color: #449c9b !important;
+        }
+    }
+}
+

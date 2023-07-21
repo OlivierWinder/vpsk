@@ -1,0 +1,148 @@
+@use '../utils/' as u;
+
+.vertrouwen1 {
+    // background-color: blue;
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+
+    @media (max-width: 949px) {
+        grid-template-columns: 1fr;
+    }
+
+    &__text {
+
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        height: fit-content;
+
+
+        ul {
+            list-style: circle;
+            list-style-position: inside;
+        }
+
+        &__heading {
+            font-family: u.$secondary-font;
+            font-weight: 200;
+            text-align: left;
+
+            @media (max-width: 949px) {
+                display: none;
+            }
+
+            &--mobile {
+                display: none;
+
+                @media (max-width: 949px) {
+                    display: unset;
+                    font-family: u.$secondary-font;
+                    font-weight: 200;
+                    text-align: left;
+
+                }
+
+            }
+
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+
+    &__image {
+
+        &__img {
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            background-color: red;
+        }
+    }
+}
+
+.vertrouwen1__heading--mobile{
+    display: none;
+}
+
+.vertrouwen2{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        
+        .material-symbols-rounded{
+            font-size: 36px !important;
+            color: u.$accent-color;
+        }
+
+        &__text{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            &__heading{
+                text-transform: capitalize;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+.icons{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 46px;
+    background-color: u.$primary-color;
+    padding: 64px 0px;
+
+    @media (min-width: 500px) and (max-width: 949px){
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 499px){
+        grid-template-columns: 1fr;
+    }
+
+    &__item{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        .material-symbols-rounded{
+            font-size: u.$h2;
+            font-weight: 400;
+        }
+
+        &__heading{
+            font-weight: 700;
+            margin-bottom: -0.5rem;
+            text-align: center;
+        }
+        
+
+        &__paragraph{
+            text-align: center;
+        }
+    }
+}

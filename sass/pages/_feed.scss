@@ -1,0 +1,51 @@
+@use '../utils' as u;
+
+.page-heading{
+    font-size: 100px;
+    font-weight: 200;
+    font-family: u.$secondary-font;
+    text-transform: capitalize;
+}
+
+.feed{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+
+    @media (min-width: 800px) and (max-width: 1199px) {
+            grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 799px) {
+            grid-template-columns: 1fr;
+    }
+
+    &__post{
+        background-color: u.$secondary-color;
+        
+        &__image{
+            height: 250px;
+            width: 100%;
+            background-color: aqua;
+
+            &__img{
+                object-fit: cover;
+                object-position: center;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &__text{
+            padding: 1rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            &__subheading{
+                font-family: u.$secondary-font;
+                font-weight: 300;
+            }
+        }
+
+    }
+}
