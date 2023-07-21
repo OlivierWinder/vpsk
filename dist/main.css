@@ -352,6 +352,7 @@ h6 {
   font-weight: 600 !important;
   padding: 0 1rem !important;
   height: 50px !important;
+  cursor: pointer;
 }
 .button--primary {
   background-color: #55C1BF !important;
