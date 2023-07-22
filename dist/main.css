@@ -379,7 +379,7 @@ h6 {
 .bigtext__heading {
   margin-left: 7vw;
   width: 60vw;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   font-family: "Spectral", serif;
   line-height: 1.2;
 }
@@ -450,7 +450,7 @@ h6 {
 @media (max-width: 949px) {
   .hero__more {
     right: 2rem;
-    bottom: 3rem;
+    bottom: 6rem;
   }
 }
 .hero__more__icon {
@@ -487,7 +487,7 @@ h6 {
     width: 100%;
     margin-left: unset;
     justify-content: flex-end;
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
   }
 }
 .hero__content__text__heading {
