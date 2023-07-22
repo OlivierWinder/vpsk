@@ -53,12 +53,14 @@
         }
 
         &__submit{
+            padding: 0 1rem;
             width: 150px;
             height: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: u.$accent-color;
+            border-radius: 20px;
         }
 
     }

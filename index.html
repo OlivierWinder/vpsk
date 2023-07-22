@@ -81,10 +81,17 @@
 
     <!-- MAIN -->
     <main>
+        <!-- hero -->
         <div class="hero__image">
             <img src="resources/images/people-talking.jpg" alt="" class="hero__image__img">
         </div>
         <div class="hero">
+            <button class="hero__more" id="scrollButton">
+                <h6 class="hero__more__heading">meer lezen</h6>
+                <span class="hero__more__icon material-symbols-rounded">
+                    expand_more
+                </span>
+            </button>
             <div class="hero__content padding">
                 <div class="hero__content__text">
                     <h1 class="hero__content__text__heading">
@@ -154,10 +161,20 @@
                 <div class="section1__content__icons">
                     <div class="section1__content__icons__icon">
                         <span class="material-symbols-rounded">
+                            person_raised_hand
+                        </span>
+                        <h6 class="section1__content__icons__icon__subheading">
+                            Verzorgt de eerste opvang van melders die te maken hebben met (het vermoeden van) een misstand of ongewenste omgangsvorm
+                            binnen de organisatie.
+                        </h6>
+                    </div>
+                    <div class="section1__content__icons__icon">
+                        <span class="material-symbols-rounded">
                             handshake
                         </span>
                         <h6 class="section1__content__icons__icon__subheading">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates soluta error ea dolor ullam atque?
+                            Brengt samen met de medewerker het probleem in kaart en helpt de medewerker een afweging te maken over wel of niet
+                            melden. Begeleidt en ondersteunt de medewerker tijdens het proces.
                         </h6>
                     </div>
                     <div class="section1__content__icons__icon">
@@ -165,23 +182,16 @@
                             diversity_1
                         </span>
                         <h6 class="section1__content__icons__icon__subheading">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates soluta error ea dolor ullam atque?
+                            Adviseert en ondersteunt leidinggevenden en management gevraagd en ongevraagd bij het voorkomen van ongewenst gedrag.
                         </h6>
                     </div>
                     <div class="section1__content__icons__icon">
                         <span class="material-symbols-rounded">
-                            hive
+                            book
                         </span>
                         <h6 class="section1__content__icons__icon__subheading">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates soluta error ea dolor ullam atque?
-                        </h6>
-                    </div>
-                    <div class="section1__content__icons__icon">
-                        <span class="material-symbols-rounded">
-                            trending_up
-                        </span>
-                        <h6 class="section1__content__icons__icon__subheading">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates soluta error ea dolor ullam atque?
+                            Registreert gevallen van ongewenst gedrag binnen een organisatie en maakt een jaarlijkse evaluatie met als uitgangspunt
+                            bv de RI&E.
                         </h6>
                     </div>
                     <a href="vertrouwenspersoon.html" class="section1__content__icons__meerlezen">
@@ -222,7 +232,6 @@
 
 
     <!-- FOOTER -->
-
     <!-- desktop footer -->
     <footer class="footer footer--desktop">
         <div class="footer__menu">
@@ -253,18 +262,13 @@
             </h5>
             <ul class="footer__info__list">
                 <li class="footer__info__list__item">
-                    sachakraal@gmail.com
+                    Info@vpsk.nl
                 </li>
                 <li class="footer__info__list__item">
-                    kvk: 57689274
+                    085-0602117
                 </li>
                 <li class="footer__info__list__item">
-                    +31 620525486
-                </li>
-                <li class="footer__info__list__item">
-                    Peter Martensstraat 66
-                    <br>
-                    1087NA, Amsterdam
+                    KVK-Nummer: 89980506
                 </li>
             </ul>
         </div>
@@ -294,6 +298,7 @@
 
     <!-- JS -->
     <script src="js/app.js"></script>
+    <script src="js/scroll.js"></script>
     <script src="js/header-active-state.js"></script>
     <script src="js/nav-modal.js"></script>
     <script src="js/header-transition.js"></script>
