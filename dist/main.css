@@ -491,6 +491,7 @@ h6 {
   }
 }
 .hero__content__text__heading {
+  color: white;
   font-size: 3.5rem;
   font-weight: 500;
   text-transform: capitalize;
@@ -503,8 +504,9 @@ h6 {
 }
 .hero__content__text__subheading {
   font-family: "Spectral", serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.333rem;
+  color: white;
 }
 .hero__content__text__button {
   background-color: #55C1BF;
@@ -566,7 +568,7 @@ h6 {
 }
 .hero__top {
   height: 100vh;
-  background: linear-gradient(180deg, rgba(73, 114, 221, 0.3) 0%, rgba(73, 115, 221, 0.739) 91%);
+  background: linear-gradient(180deg, rgba(73, 114, 221, 0.2) 0%, rgba(73, 115, 221, 0.7) 91%);
 }
 @media (max-width: 949px) {
   .hero__top {

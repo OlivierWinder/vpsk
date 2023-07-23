@@ -74,8 +74,9 @@
                 justify-content: flex-end;
                 margin-bottom: 20vh;
             }
-
+            
             &__heading{
+                color: white;
                 font-size: 3.5rem;
                 font-weight: 500;
                 text-transform: capitalize;
@@ -86,8 +87,9 @@
             }
             &__subheading{
                 font-family: u.$secondary-font;
-                font-weight: 500;
+                font-weight: 300;
                 font-size: u.$h5;
+                color: white;
             }
 
             &__button{
@@ -149,7 +151,7 @@
     
     &__top{
         height: 100vh;
-        background: linear-gradient(180deg, rgba(73, 114, 221, 0.3) 0%, rgba(73, 115, 221, 0.739) 91%);
+        background: linear-gradient(180deg, rgba(73, 114, 221, 0.2) 0%, rgba(73, 115, 221, 0.7) 91%);
         @media (max-width: 949px){ 
             height: 100vh;
         }
