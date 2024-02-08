@@ -19,6 +19,7 @@ function handleScroll() {
     headerNav.classList.remove('nav--active')
     headerLogo.classList.remove('header__logo--active');
     headerModalButton.classList.remove('header__modal-button--black');
+    headerLogoSvg.classList.add('header__logo__heading__svg--active');
   }
 }
 
