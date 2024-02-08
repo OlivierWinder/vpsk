@@ -1327,4 +1327,12 @@ h6 {
 .main--margin {
   margin-top: 120px;
   margin-bottom: 64px;
-}/*# sourceMappingURL=main.css.map */
+}
+/* logo svg color change */
+.header__logo__heading__svg{
+    fill: #ffffff;
+}
+.header__logo__heading__svg--active{
+    fill: #2f5497;
+}
+/*# sourceMappingURL=main.css.map */
