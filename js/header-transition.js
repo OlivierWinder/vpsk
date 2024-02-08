@@ -16,7 +16,7 @@ function handleScroll() {
     headerLogoSvg.classList.add('header__logo__heading__svg--active');
   } else {
     header.classList.remove('header--active');
-    headerNav.classList.remove('nav--active')
+    headerNav.classList.remove('nav--active');
     headerLogo.classList.remove('header__logo--active');
     headerModalButton.classList.remove('header__modal-button--black');
     headerLogoSvg.classList.remove('header__logo__heading__svg--active');
